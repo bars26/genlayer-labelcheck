@@ -63,6 +63,11 @@ and the sponsor challenging their own campaign. And refused by the contract: the
 closing a campaign before its last day. The contract's balance was reconciled with `totals()` (open pots, reserved rewards and open
 stakes) at four points of the run, each time after every transfer had finalized.
 
+**From the live app with MetaMask:** a tester checked barcode 5013665115571 (Whole Earth peanut butter, "sans sucres ajoutés") in the
+wallet-free checker and challenged its **no added sugars** claim: validators saw the claim on the front and read roasted peanuts and sea
+salt in both the record and the photo of the ingredient list, so the claim qualifies (**rejected**); the tester accepted at once and the
+stake joined the pot ([wallet test](docs/REPRODUCTION.md#wallet-test-from-the-live-app)).
+
 ## Who can do what (and the attacks this blocks)
 
 | Rule | Why |

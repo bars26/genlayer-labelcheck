@@ -75,6 +75,14 @@ validator agreed on, and each photo's sha256 with the answer given for it.
 - **challenge_4**: 2026-11-02T05:52:45 filed → REJECTED · 2026-11-02T06:08:26 settled (stake_to_pot)
 - **challenge_5**: 2026-11-02T05:56:37 filed → REJECTED · 2026-11-02T06:08:33 settled (stake_to_pot)
 
+## Wallet test from the live app
+
+MetaMask test from the production app (labelcheck-bars26.vercel.app): the tester checks barcode 5013665115571 (Whole Earth peanut butter, "sans sucres ajoutés" on the front) in the wallet-free checker, challenges its "No added sugars" claim in campaign_0 with the 0.1 GEN stake, and accepts the ruling at once. Wallet `0x4f80b5c475fced34fc9a07ffccf39e1adc1406bf`. Every transaction is FINALIZED with execution result SUCCESS.
+
+| Step | GEN sent | Result | Tx |
+|---|---|---|---|
+| Challenge: campaign_0, barcode 5013665115571, claim no_added_sugar, from the "Check a label" panel | 0.1 GEN | challenge_6 REJECTED (claim_met): validators saw the claim on the front (MEETS) and read the recorded ingredients and the photo of the ingredient list (roasted peanuts 99%, sea salt) as containing no added sugar (MEETS both) | [`0x02539fac…`](https://explorer-studio.genlayer.com/tx/0x02539fac226b688db901a5b41fce0eb8eb5759c022878d21370e856c9e3b479e) |
+| Accept the ruling (challenger, inside the window) |  | settled: stake_to_pot, the 0.1 GEN stake joined campaign_0's pot | [`0x2d28c2fe…`](https://explorer-studio.genlayer.com/tx/0x2d28c2fe9176401095a8cb499b1bc5524d55cbc8c03a151b550b24eac2da09e5) |
 
 ## Every transaction
 
