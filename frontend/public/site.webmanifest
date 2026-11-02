@@ -1,0 +1,10 @@
+{
+  "name": "LabelCheck",
+  "short_name": "LabelCheck",
+  "description": "Challenge nutrition claims on food packs; GenLayer validators read the pack and the label",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6F3EA",
+  "theme_color": "#F6F3EA",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

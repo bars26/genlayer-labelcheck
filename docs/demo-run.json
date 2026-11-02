@@ -1,0 +1,869 @@
+{
+  "contract": "0x137614E1D13Ade8D9eBeF98cE3f512Ab3C589DF9",
+  "accounts": {
+    "sponsor": "0xF0d9D5Bd139fE417Ebc6e87836EE60374f18b82c",
+    "cofunder": "0x6A3aE1977642E0eFD9ea81053012bd9978D6F647",
+    "shopper": "0xb023E5791025Dd917fFc8c337a95aF4757A305b4",
+    "bystander": "0x0E212d3DB3d67A9A19946B7621c02ce7749892Ef"
+  },
+  "campaigns": [
+    "campaign_0",
+    "campaign_1"
+  ],
+  "pots": {
+    "campaign_0": {
+      "ends": "2027-01-01",
+      "funded": "4000000000000000000",
+      "funders": 2,
+      "paid": "500000000000000000",
+      "pot": "3800000000000000000",
+      "refunded": 0,
+      "reserved": "0",
+      "returnable": "0",
+      "returned": "0",
+      "rewards_left": 7,
+      "stakes_kept": "300000000000000000",
+      "stakes_open": "0",
+      "state": "open"
+    },
+    "campaign_1": {
+      "ends": "2027-01-01",
+      "funded": "1000000000000000000",
+      "funders": 1,
+      "paid": "0",
+      "pot": "1100000000000000000",
+      "refunded": 0,
+      "reserved": "0",
+      "returnable": "0",
+      "returned": "0",
+      "rewards_left": 4,
+      "stakes_kept": "100000000000000000",
+      "stakes_open": "0",
+      "state": "open"
+    }
+  },
+  "challenges": {
+    "challenge_0": {
+      "barcode": "8412170028579",
+      "claim": "sugar_free",
+      "campaign": "campaign_0",
+      "ruling": "UPHELD",
+      "code": "misleading",
+      "outcome": "paid",
+      "state": "settled",
+      "why": "Galletas cacao carries the claim \"Sugar-free\", which EU law allows only with sugars of at most 0.5 g per 100 g. The Open Food Facts record (sugars 0.6 g, limit 0.5 g) and the photo of the nutrition table both show it does not qualify.",
+      "facts": {
+        "barcode": "8412170028579",
+        "brands": "CASA SANTIVERI S.L.",
+        "campaign_countries": "anywhere",
+        "claim": "sugar_free",
+        "countries": [
+          "en:spain"
+        ],
+        "data_answer": "FAILS",
+        "data_detail": "sugars 0.6 g, limit 0.5 g",
+        "front_answer": "MEETS",
+        "label_photo_kind": "nutrition table",
+        "lang": "es",
+        "last_modified": "2026-09-30",
+        "liquid": false,
+        "nutriments": {
+          "energy-kcal_100g": 412,
+          "fat_100g": 17,
+          "fiber_100g": 7.5,
+          "proteins_100g": 7,
+          "salt_100g": 0.5,
+          "sugars_100g": 0.6
+        },
+        "photo_answer": "FAILS",
+        "product_name": "Galletas cacao",
+        "quantity": "200 g",
+        "rev": 87,
+        "rule": "sugars of at most 0.5 g per 100 g"
+      },
+      "timeline": [
+        {
+          "at": "2026-11-02T05:50:03",
+          "code": "misleading",
+          "event": "filed",
+          "evidence": "117510fbaf8da5587345d101b10f04408ceee82cd442d4c773017a2df9baad0c",
+          "ruling": "UPHELD"
+        },
+        {
+          "at": "2026-11-02T05:53:55",
+          "before": "UPHELD",
+          "by": "funder",
+          "code": "misleading",
+          "event": "contested",
+          "evidence": "03409e8072ac5e4a5d4f93377822d21f80c37f494bd76dc6447ff68db7fcd706",
+          "ruling": "UPHELD"
+        },
+        {
+          "at": "2026-11-02T06:08:06",
+          "event": "settled",
+          "outcome": "paid",
+          "reward": "500000000000000000",
+          "stake": "100000000000000000"
+        }
+      ],
+      "packets": [
+        {
+          "facts_sha256": "af7048ede10d1bd5ebbe9a1bfca3fdc2a149731a8a684a58e0dfd34991f8cdf1",
+          "packet_sha256": "117510fbaf8da5587345d101b10f04408ceee82cd442d4c773017a2df9baad0c",
+          "photos": [
+            {
+              "answer": "MEETS",
+              "kind": "front",
+              "sha256": "e746e1c6c8bb296488389db0f55f52ce4e667b8e0bc8d35a67f87ee7583ec3b1",
+              "url": "https://images.openfoodfacts.org/images/products/841/217/002/8579/front_es.76.400.jpg"
+            },
+            {
+              "answer": "FAILS",
+              "kind": "nutrition table",
+              "sha256": "db5370c33a78a6545286d06d7b301ebe1ac675d76938f7855142e8cb24891ea7",
+              "url": "https://images.openfoodfacts.org/images/products/841/217/002/8579/nutrition_es.81.400.jpg"
+            }
+          ],
+          "read_at": "2026-11-02T05:50:03",
+          "record": "https://world.openfoodfacts.org/product/8412170028579",
+          "rev": 87,
+          "ruling": "UPHELD",
+          "source": "https://world.openfoodfacts.org/api/v2/product/8412170028579.json?fields=code,product_name,brands,lang,quantity,product_quantity_unit,countries_tags,last_modified_t,rev,nutriments,ingredients_text,image_front_url,image_nutrition_url,image_ingredients_url"
+        },
+        {
+          "facts_sha256": "af7048ede10d1bd5ebbe9a1bfca3fdc2a149731a8a684a58e0dfd34991f8cdf1",
+          "packet_sha256": "03409e8072ac5e4a5d4f93377822d21f80c37f494bd76dc6447ff68db7fcd706",
+          "photos": [
+            {
+              "answer": "MEETS",
+              "kind": "front",
+              "sha256": "e746e1c6c8bb296488389db0f55f52ce4e667b8e0bc8d35a67f87ee7583ec3b1",
+              "url": "https://images.openfoodfacts.org/images/products/841/217/002/8579/front_es.76.400.jpg"
+            },
+            {
+              "answer": "FAILS",
+              "kind": "nutrition table",
+              "sha256": "db5370c33a78a6545286d06d7b301ebe1ac675d76938f7855142e8cb24891ea7",
+              "url": "https://images.openfoodfacts.org/images/products/841/217/002/8579/nutrition_es.81.400.jpg"
+            }
+          ],
+          "read_at": "2026-11-02T05:53:55",
+          "record": "https://world.openfoodfacts.org/product/8412170028579",
+          "rev": 87,
+          "ruling": "UPHELD",
+          "source": "https://world.openfoodfacts.org/api/v2/product/8412170028579.json?fields=code,product_name,brands,lang,quantity,product_quantity_unit,countries_tags,last_modified_t,rev,nutriments,ingredients_text,image_front_url,image_nutrition_url,image_ingredients_url"
+        }
+      ]
+    },
+    "challenge_1": {
+      "barcode": "8410376009392",
+      "claim": "sugar_free",
+      "campaign": "campaign_0",
+      "ruling": "UNCLEAR",
+      "code": "data_conflict",
+      "outcome": "stake_returned",
+      "state": "settled",
+      "why": "The Open Food Facts record and the photo of the nutrition table of gullon fibre zero sugar free disagree (record: FAILS, photo: MEETS), so nothing is decided; the stake goes back.",
+      "facts": {
+        "barcode": "8410376009392",
+        "brands": "GALLETAS GULLON S.A.",
+        "campaign_countries": "anywhere",
+        "claim": "sugar_free",
+        "countries": [
+          "en:bulgaria",
+          "en:chile",
+          "en:france",
+          "en:hungary",
+          "en:morocco",
+          "en:portugal",
+          "en:romania",
+          "en:serbia",
+          "en:spain",
+          "en:tunisia"
+        ],
+        "data_answer": "FAILS",
+        "data_detail": "sugars 5 g, limit 0.5 g",
+        "front_answer": "MEETS",
+        "label_photo_kind": "nutrition table",
+        "lang": "en",
+        "last_modified": "2026-10-28",
+        "liquid": false,
+        "nutriments": {
+          "energy-kcal_100g": 431,
+          "fat_100g": 17,
+          "fiber_100g": 9.3,
+          "proteins_100g": 6.1,
+          "salt_100g": 0.65,
+          "sugars_100g": 5
+        },
+        "photo_answer": "MEETS",
+        "product_name": "gullon fibre zero sugar free",
+        "quantity": "170 g",
+        "rev": 258,
+        "rule": "sugars of at most 0.5 g per 100 g"
+      },
+      "timeline": [
+        {
+          "at": "2026-11-02T05:50:53",
+          "code": "data_conflict",
+          "event": "filed",
+          "evidence": "9867745ac3aee64dbe1a6af881f8518f1cccb00dc250d792cf85280ea8a7c3ef",
+          "ruling": "UNCLEAR"
+        },
+        {
+          "at": "2026-11-02T05:55:15",
+          "before": "UNCLEAR",
+          "by": "challenger",
+          "code": "data_conflict",
+          "event": "contested",
+          "evidence": "b947f4b471abf8a9b5d6058d17134dfd4b1f89cbc0fc13b828a799900651aeb9",
+          "ruling": "UNCLEAR"
+        },
+        {
+          "at": "2026-11-02T06:08:13",
+          "event": "settled",
+          "outcome": "stake_returned",
+          "stake": "100000000000000000"
+        }
+      ],
+      "packets": [
+        {
+          "facts_sha256": "e7af5f10bc44681e1c60644e985e74ef3d4ca0a713e809795ce09fb6c968f0e6",
+          "packet_sha256": "9867745ac3aee64dbe1a6af881f8518f1cccb00dc250d792cf85280ea8a7c3ef",
+          "photos": [
+            {
+              "answer": "MEETS",
+              "kind": "front",
+              "sha256": "9b83fd0f5156a9454838d3811e012f95635e53b026618bbf66881df6f602785e",
+              "url": "https://images.openfoodfacts.org/images/products/841/037/600/9392/front_en.104.400.jpg"
+            },
+            {
+              "answer": "MEETS",
+              "kind": "nutrition table",
+              "sha256": "9fa8306acf5146602ecfee0782ad292bc0643ec80bd25d8a9f71ab6bcfd86b97",
+              "url": "https://images.openfoodfacts.org/images/products/841/037/600/9392/nutrition_en.106.400.jpg"
+            }
+          ],
+          "read_at": "2026-11-02T05:50:53",
+          "record": "https://world.openfoodfacts.org/product/8410376009392",
+          "rev": 258,
+          "ruling": "UNCLEAR",
+          "source": "https://world.openfoodfacts.org/api/v2/product/8410376009392.json?fields=code,product_name,brands,lang,quantity,product_quantity_unit,countries_tags,last_modified_t,rev,nutriments,ingredients_text,image_front_url,image_nutrition_url,image_ingredients_url"
+        },
+        {
+          "facts_sha256": "e7af5f10bc44681e1c60644e985e74ef3d4ca0a713e809795ce09fb6c968f0e6",
+          "packet_sha256": "b947f4b471abf8a9b5d6058d17134dfd4b1f89cbc0fc13b828a799900651aeb9",
+          "photos": [
+            {
+              "answer": "MEETS",
+              "kind": "front",
+              "sha256": "9b83fd0f5156a9454838d3811e012f95635e53b026618bbf66881df6f602785e",
+              "url": "https://images.openfoodfacts.org/images/products/841/037/600/9392/front_en.104.400.jpg"
+            },
+            {
+              "answer": "MEETS",
+              "kind": "nutrition table",
+              "sha256": "9fa8306acf5146602ecfee0782ad292bc0643ec80bd25d8a9f71ab6bcfd86b97",
+              "url": "https://images.openfoodfacts.org/images/products/841/037/600/9392/nutrition_en.106.400.jpg"
+            }
+          ],
+          "read_at": "2026-11-02T05:55:15",
+          "record": "https://world.openfoodfacts.org/product/8410376009392",
+          "rev": 258,
+          "ruling": "UNCLEAR",
+          "source": "https://world.openfoodfacts.org/api/v2/product/8410376009392.json?fields=code,product_name,brands,lang,quantity,product_quantity_unit,countries_tags,last_modified_t,rev,nutriments,ingredients_text,image_front_url,image_nutrition_url,image_ingredients_url"
+        }
+      ]
+    },
+    "challenge_2": {
+      "barcode": "3095757697105",
+      "claim": "low_salt",
+      "campaign": "campaign_0",
+      "ruling": "REJECTED",
+      "code": "not_claimed",
+      "outcome": "stake_to_pot",
+      "state": "settled",
+      "why": "Validators looked at the front of Blanc de Poulet  - 25% de Sel* and it does not carry the claim \"Low salt\".",
+      "facts": {
+        "barcode": "3095757697105",
+        "brands": "Fleury Michon",
+        "campaign_countries": "anywhere",
+        "claim": "low_salt",
+        "countries": [
+          "en:france",
+          "en:switzerland"
+        ],
+        "front_answer": "FAILS",
+        "lang": "fr",
+        "last_modified": "2026-10-28",
+        "liquid": false,
+        "nutriments": {
+          "energy-kcal_100g": 103,
+          "fat_100g": 1.9,
+          "fiber_100g": 0.5,
+          "proteins_100g": 21,
+          "salt_100g": 1.4,
+          "sugars_100g": 0.5
+        },
+        "product_name": "Blanc de Poulet  - 25% de Sel*",
+        "quantity": "160 g",
+        "rev": 1183,
+        "rule": "salt of at most 0.3 g per 100 g (sodium of at most 0.12 g)"
+      },
+      "timeline": [
+        {
+          "at": "2026-11-02T05:51:58",
+          "code": "not_claimed",
+          "event": "filed",
+          "evidence": "6a90fc8de36514d4ca44d68c0927f3a2509115efd8a7471661cb6f37f4ebdb68",
+          "ruling": "REJECTED"
+        },
+        {
+          "at": "2026-11-02T05:55:39",
+          "event": "settled",
+          "outcome": "stake_to_pot",
+          "stake": "100000000000000000"
+        }
+      ],
+      "packets": [
+        {
+          "facts_sha256": "55d0b6e78f785e9ce940d6616f9b8f05d613d531166037b4953fd9b8797036fc",
+          "packet_sha256": "6a90fc8de36514d4ca44d68c0927f3a2509115efd8a7471661cb6f37f4ebdb68",
+          "photos": [
+            {
+              "answer": "FAILS",
+              "kind": "front",
+              "sha256": "d39249cb1d8aa69cb582c69ed140ab9a364145b62d930e2d91e6095a6b61fe7b",
+              "url": "https://images.openfoodfacts.org/images/products/309/575/769/7105/front_fr.1158.400.jpg"
+            }
+          ],
+          "read_at": "2026-11-02T05:51:58",
+          "record": "https://world.openfoodfacts.org/product/3095757697105",
+          "rev": 1183,
+          "ruling": "REJECTED",
+          "source": "https://world.openfoodfacts.org/api/v2/product/3095757697105.json?fields=code,product_name,brands,lang,quantity,product_quantity_unit,countries_tags,last_modified_t,rev,nutriments,ingredients_text,image_front_url,image_nutrition_url,image_ingredients_url"
+        }
+      ]
+    },
+    "challenge_3": {
+      "barcode": "3021769505602",
+      "claim": "no_added_sugar",
+      "campaign": "campaign_0",
+      "ruling": "REJECTED",
+      "code": "claim_met",
+      "outcome": "stake_to_pot",
+      "state": "settled",
+      "why": "POM'POTES Compotes Gourdes Pomme Nature 1x90g carries the claim \"No added sugars\" and qualifies: the Open Food Facts record (ingredient list as recorded) and the photo of the ingredient list both meet no added mono- or disaccharides and no other food used for its sweetening properties (sugar, syrups, honey, dextrose, malt extract, fruit juice concentrates added to sweeten).",
+      "facts": {
+        "barcode": "3021769505602",
+        "brands": "Pom' Potes",
+        "campaign_countries": "anywhere",
+        "claim": "no_added_sugar",
+        "countries": [
+          "en:france",
+          "en:morocco",
+          "en:switzerland"
+        ],
+        "data_answer": "MEETS",
+        "data_detail": "ingredient list as recorded",
+        "front_answer": "MEETS",
+        "ingredients": "Pomme 99,7% (purée et purée concentrée), arôme naturel de pomme, jus de citron concentré (si nécessaire pour réguler l'acidité), antioxydant : acide ascorbique.",
+        "label_photo_kind": "ingredient list",
+        "lang": "fr",
+        "last_modified": "2026-10-23",
+        "liquid": false,
+        "nutriments": {
+          "energy-kcal_100g": 57,
+          "fat_100g": 0.6,
+          "fiber_100g": 1.3,
+          "proteins_100g": 0.5,
+          "salt_100g": 0.01,
+          "sugars_100g": 11
+        },
+        "photo_answer": "MEETS",
+        "product_name": "POM'POTES Compotes Gourdes Pomme Nature 1x90g",
+        "quantity": "90 g",
+        "rev": 193,
+        "rule": "no added mono- or disaccharides and no other food used for its sweetening properties (sugar, syrups, honey, dextrose, malt extract, fruit juice concentrates added to sweeten)"
+      },
+      "timeline": [
+        {
+          "at": "2026-11-02T05:52:16",
+          "code": "claim_met",
+          "event": "filed",
+          "evidence": "f70fdeb177b77005b3c3005d793ee4151e39530739783e64177be8f86a0202fb",
+          "ruling": "REJECTED"
+        },
+        {
+          "at": "2026-11-02T06:08:20",
+          "event": "settled",
+          "outcome": "stake_to_pot",
+          "stake": "100000000000000000"
+        }
+      ],
+      "packets": [
+        {
+          "facts_sha256": "115a989a0859850d48a229674d2572eba3566d64295ca01c826ba42bdf326e32",
+          "ingredients_sha256": "ae858b88fad854f7bbb6ce303390dc501f016b0a83988a98ecf68c4933290d51",
+          "packet_sha256": "f70fdeb177b77005b3c3005d793ee4151e39530739783e64177be8f86a0202fb",
+          "photos": [
+            {
+              "answer": "MEETS",
+              "kind": "front",
+              "sha256": "66fe7f26b7a4b4e645b59a986a7b4d845ed20e623c796525590a521dca32ae70",
+              "url": "https://images.openfoodfacts.org/images/products/302/176/950/5602/front_fr.175.400.jpg"
+            },
+            {
+              "answer": "MEETS",
+              "kind": "ingredient list",
+              "sha256": "3b0f5c5ae3f4d3723706c19836d81c89b7b1cfb1cc50691016eea419ce5c8dd5",
+              "url": "https://images.openfoodfacts.org/images/products/302/176/950/5602/ingredients_fr.160.400.jpg"
+            }
+          ],
+          "read_at": "2026-11-02T05:52:16",
+          "record": "https://world.openfoodfacts.org/product/3021769505602",
+          "rev": 193,
+          "ruling": "REJECTED",
+          "source": "https://world.openfoodfacts.org/api/v2/product/3021769505602.json?fields=code,product_name,brands,lang,quantity,product_quantity_unit,countries_tags,last_modified_t,rev,nutriments,ingredients_text,image_front_url,image_nutrition_url,image_ingredients_url"
+        }
+      ]
+    },
+    "challenge_4": {
+      "barcode": "5411188113416",
+      "claim": "low_fat",
+      "campaign": "campaign_0",
+      "ruling": "REJECTED",
+      "code": "claim_met",
+      "outcome": "stake_to_pot",
+      "state": "settled",
+      "why": "Especialidad vegetal de soja melocotón y piña con fruta de la pasión carries the claim \"Low fat\" and qualifies: the Open Food Facts record (fat 1.9 g, limit 3 g) and the photo of the nutrition table both meet fat of at most 3 g per 100 g.",
+      "facts": {
+        "barcode": "5411188113416",
+        "brands": "Danone Belux nv",
+        "campaign_countries": "anywhere",
+        "claim": "low_fat",
+        "countries": [
+          "en:france",
+          "en:portugal",
+          "en:spain"
+        ],
+        "data_answer": "MEETS",
+        "data_detail": "fat 1.9 g, limit 3 g",
+        "front_answer": "MEETS",
+        "label_photo_kind": "nutrition table",
+        "lang": "es",
+        "last_modified": "2026-09-29",
+        "liquid": false,
+        "nutriments": {
+          "energy-kcal_100g": 78,
+          "fat_100g": 1.9,
+          "fiber_100g": 1,
+          "proteins_100g": 3.6,
+          "salt_100g": 0.3,
+          "sugars_100g": 10.3
+        },
+        "photo_answer": "MEETS",
+        "product_name": "Especialidad vegetal de soja melocotón y piña con fruta de la pasión",
+        "quantity": "500 g (4 x 125 g)",
+        "rev": 101,
+        "rule": "fat of at most 3 g per 100 g"
+      },
+      "timeline": [
+        {
+          "at": "2026-11-02T05:52:45",
+          "code": "claim_met",
+          "event": "filed",
+          "evidence": "4afc55a6d4412e79855016608f757d62ec7ee98c0c5b506c03891a5051d2d728",
+          "ruling": "REJECTED"
+        },
+        {
+          "at": "2026-11-02T06:08:26",
+          "event": "settled",
+          "outcome": "stake_to_pot",
+          "stake": "100000000000000000"
+        }
+      ],
+      "packets": [
+        {
+          "facts_sha256": "4b0f2397af59fbd9ce1776a8b2455a71f9f15e4a154f5a4b90f2ab7ba0105167",
+          "packet_sha256": "4afc55a6d4412e79855016608f757d62ec7ee98c0c5b506c03891a5051d2d728",
+          "photos": [
+            {
+              "answer": "MEETS",
+              "kind": "front",
+              "sha256": "65bc7dabf393a00565463e843170f420a4a4607bb5ebd40157130da5f7f61055",
+              "url": "https://images.openfoodfacts.org/images/products/541/118/811/3416/front_es.97.400.jpg"
+            },
+            {
+              "answer": "MEETS",
+              "kind": "nutrition table",
+              "sha256": "71ce5bb4c1c0b6f34787a1ce14780472195bd7c0859c4eb978fc584f62a84df3",
+              "url": "https://images.openfoodfacts.org/images/products/541/118/811/3416/nutrition_es.88.400.jpg"
+            }
+          ],
+          "read_at": "2026-11-02T05:52:45",
+          "record": "https://world.openfoodfacts.org/product/5411188113416",
+          "rev": 101,
+          "ruling": "REJECTED",
+          "source": "https://world.openfoodfacts.org/api/v2/product/5411188113416.json?fields=code,product_name,brands,lang,quantity,product_quantity_unit,countries_tags,last_modified_t,rev,nutriments,ingredients_text,image_front_url,image_nutrition_url,image_ingredients_url"
+        }
+      ]
+    },
+    "challenge_5": {
+      "barcode": "8412170028579",
+      "claim": "sugar_free",
+      "campaign": "campaign_1",
+      "ruling": "REJECTED",
+      "code": "outside_countries",
+      "outcome": "stake_to_pot",
+      "state": "settled",
+      "why": "Galletas cacao is not sold in the countries this campaign covers (en:united-kingdom).",
+      "facts": {
+        "barcode": "8412170028579",
+        "brands": "CASA SANTIVERI S.L.",
+        "campaign_countries": "en:united-kingdom",
+        "claim": "sugar_free",
+        "countries": [
+          "en:spain"
+        ],
+        "lang": "es",
+        "last_modified": "2026-09-30",
+        "liquid": false,
+        "nutriments": {
+          "energy-kcal_100g": 412,
+          "fat_100g": 17,
+          "fiber_100g": 7.5,
+          "proteins_100g": 7,
+          "salt_100g": 0.5,
+          "sugars_100g": 0.6
+        },
+        "product_name": "Galletas cacao",
+        "quantity": "200 g",
+        "rev": 87,
+        "rule": "sugars of at most 0.5 g per 100 g"
+      },
+      "timeline": [
+        {
+          "at": "2026-11-02T05:56:37",
+          "code": "outside_countries",
+          "event": "filed",
+          "evidence": "7c2f05884694ab240072ac8e487d1e2d31ff82e26bfbfa09c646a64dad208847",
+          "ruling": "REJECTED"
+        },
+        {
+          "at": "2026-11-02T06:08:33",
+          "event": "settled",
+          "outcome": "stake_to_pot",
+          "stake": "100000000000000000"
+        }
+      ],
+      "packets": [
+        {
+          "facts_sha256": "235032caa053ba1840e694f4506cc6df51b831595d48141de984eba13f554938",
+          "packet_sha256": "7c2f05884694ab240072ac8e487d1e2d31ff82e26bfbfa09c646a64dad208847",
+          "photos": [],
+          "read_at": "2026-11-02T05:56:37",
+          "record": "https://world.openfoodfacts.org/product/8412170028579",
+          "rev": 87,
+          "ruling": "REJECTED",
+          "source": "https://world.openfoodfacts.org/api/v2/product/8412170028579.json?fields=code,product_name,brands,lang,quantity,product_quantity_unit,countries_tags,last_modified_t,rev,nutriments,ingredients_text,image_front_url,image_nutrition_url,image_ingredients_url"
+        }
+      ]
+    }
+  },
+  "reconciliations": [
+    {
+      "label": "after the refused campaigns: the contract kept nothing",
+      "expected": "0",
+      "balance": "0",
+      "ok": true
+    },
+    {
+      "label": "campaign 0 open, Santiveri's reward reserved",
+      "expected": "4500000000000000000",
+      "balance": "4500000000000000000",
+      "ok": true
+    },
+    {
+      "label": "both campaigns open",
+      "expected": "5600000000000000000",
+      "balance": "5600000000000000000",
+      "ok": true
+    },
+    {
+      "label": "end of run",
+      "expected": "4900000000000000000",
+      "balance": "4900000000000000000",
+      "ok": true
+    }
+  ],
+  "balances": {
+    "sponsor": "16000000000000000000",
+    "cofunder": "4000000000000000000",
+    "shopper": "3100000000000000000",
+    "bystander": "1000000000000000000"
+  },
+  "log": [
+    {
+      "who": "sponsor",
+      "call": "create_campaign(\"EU front-of-pack claims\", \"sugar_free,tasty\", \"\", \"2027-01-01\", 0.5 GEN, 0.1 GEN, 5)",
+      "value": "2",
+      "hash": "0xc54da8a491322b6bac322dd38d72d9bd4853eb38901f82de1638b9feab036517",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "REFUNDED: claims must be distinct codes from: sugar_free, low_sugar, no_added_sugar, fat_free, low_fat, low_salt, source_of_fibre, high_fibre, source_of_protein, high_protein"
+    },
+    {
+      "who": "sponsor",
+      "call": "create_campaign(\"EU front-of-pack claims\", \"sugar_free,low_sugar,no_added_sugar,fat_free,low_fat,low_sa, \"\", \"2026-02-31\", 0.5 GEN, 0.1 GEN, 5)",
+      "value": "2",
+      "hash": "0x2f30ee6497d334ca9fa90f464a669ac49c0b651f54b2ee5392ccba1c53481560",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "REFUNDED: ends must be a real calendar date written YYYY-MM-DD"
+    },
+    {
+      "who": "sponsor",
+      "call": "create_campaign(\"EU front-of-pack claims\", \"sugar_free,low_sugar,no_added_sugar,fat_free,low_fat,low_sa, \"Spain\", \"2027-01-01\", 0.5 GEN, 0.1 GEN, 5)",
+      "value": "2",
+      "hash": "0x2a4b609aaecb377c3d74498992c61ffb2ba1c5bd0e8e02f9cbbff427d12583a2",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "REFUNDED: countries must be up to 10 Open Food Facts country tags like en:france, or empty"
+    },
+    {
+      "who": "sponsor",
+      "call": "create_campaign(\"EU front-of-pack claims\", \"sugar_free,low_sugar,no_added_sugar,fat_free,low_fat,low_sa, \"\", \"2027-01-01\", 0.05 GEN, 0.1 GEN, 5)",
+      "value": "2",
+      "hash": "0x963fb2d2b521bc269b5595fd605534f6e9d23286f0eb1440db467170995245dc",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "REFUNDED: reward must be at least 0.1 GEN"
+    },
+    {
+      "who": "sponsor",
+      "call": "create_campaign(\"EU front-of-pack claims\", \"sugar_free,low_sugar,no_added_sugar,fat_free,low_fat,low_sa, \"\", \"2027-01-01\", 1 GEN, 0.1 GEN, 5)",
+      "value": "0.5",
+      "hash": "0x1b49d28f654d4b3cd042071f5fb80142e70844d488a5b24f7f7b1ac5c59723a3",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "REFUNDED: fund the campaign with at least one reward"
+    },
+    {
+      "who": "sponsor",
+      "call": "create_campaign(\"EU front-of-pack claims\", \"sugar_free,low_sugar,no_added_sugar,fat_free,low_fat,low_sa, \"\", \"2027-01-01\", 0.5 GEN, 0.1 GEN, 5)",
+      "value": "3",
+      "hash": "0x7aeef66c2e01f4fa26eeda79600ad2924623df9bdc8df0154a9040bba7ac96a9",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "campaign_0"
+    },
+    {
+      "who": "cofunder",
+      "call": "fund(\"campaign_0\")",
+      "value": "1",
+      "hash": "0xad3bc3082848ad0c4c0ece0d4e0ec69cab4b4bb3becfe5980883ce1fad9367ed",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "funded"
+    },
+    {
+      "who": "bystander",
+      "call": "fund(\"campaign_0\")",
+      "value": "0.05",
+      "hash": "0xae1186b52c0702cc9a8507f2c429ba49bfd9b234ff5db1242360db20769eedba",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "REFUNDED: Send at least 0.1 GEN to fund the campaign"
+    },
+    {
+      "who": "shopper",
+      "call": "challenge(\"campaign_0\", \"8412170028579\", \"sugar_free\")",
+      "value": "0.1",
+      "hash": "0xf74dba3f3eeff96a15e31311bffbeb2158a144566218ee453b35d560e4a06cb7",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "challenge_0"
+    },
+    {
+      "who": "shopper",
+      "call": "challenge(\"campaign_0\", \"8410376009392\", \"sugar_free\")",
+      "value": "0.1",
+      "hash": "0x30abd6376d582d610946617bbb391633684026452abf7f84e49f668e87935158",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "challenge_1"
+    },
+    {
+      "who": "shopper",
+      "call": "challenge(\"campaign_0\", \"3095757697105\", \"low_salt\")",
+      "value": "0.1",
+      "hash": "0x411f2eae78b5f0b9bc1c029006d412618b505972dbe4988480b786932f813373",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "challenge_2"
+    },
+    {
+      "who": "shopper",
+      "call": "challenge(\"campaign_0\", \"3021769505602\", \"no_added_sugar\")",
+      "value": "0.1",
+      "hash": "0xb46c2ad386df9ee8c2477e4fdeb5b2b02a8857096b0c45067351398c770b63f1",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "challenge_3"
+    },
+    {
+      "who": "shopper",
+      "call": "challenge(\"campaign_0\", \"5411188113416\", \"low_fat\")",
+      "value": "0.1",
+      "hash": "0xd490f88947bc6bf5f0ec42b6dc78be2f760a1899b25570b6023e4e8868bee2d2",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "challenge_4"
+    },
+    {
+      "who": "shopper",
+      "call": "challenge(\"campaign_0\", \"8412170028579\", \"sugar_free\")",
+      "value": "0.1",
+      "hash": "0x53c0a68e9ce42920bf2865dc02679a2701b83d6c0ad686caaa9c238b73214c84",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "REFUNDED: challenge_0 on this product and claim is still open"
+    },
+    {
+      "who": "shopper",
+      "call": "challenge(\"campaign_0\", \"8412170028579\", \"high_protein\")",
+      "value": "0.2",
+      "hash": "0x2c177e9b1a33fa4f9b87bbe345f9bcde89d2676bb91c709b1def65b9985196b2",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "REFUNDED: A challenge in campaign_0 stakes exactly 100000000000000000 wei"
+    },
+    {
+      "who": "sponsor",
+      "call": "challenge(\"campaign_0\", \"3017624010701\", \"sugar_free\")",
+      "value": "0.1",
+      "hash": "0xcb07ad302098583350856c19f202a6c576f20b06228dd2c7ce0754512c4c7e36",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "REFUNDED: A funder cannot be paid by their own campaign"
+    },
+    {
+      "who": "shopper",
+      "call": "settle(\"challenge_0\")",
+      "value": "0",
+      "hash": "0xb7d2422ad0adb12f40f0f2708a2826516c0daa8356e47155b52d3ed3df51ee61",
+      "status": "ACCEPTED",
+      "exec": "ERROR",
+      "refused": "The response window is still open; only a funder can pay early"
+    },
+    {
+      "who": "cofunder",
+      "call": "contest(\"challenge_0\")",
+      "value": "0",
+      "hash": "0xe81358ef092f132980fec8bac63477c248690edcbbb3597fd2925e1a30b0f01d",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "UPHELD"
+    },
+    {
+      "who": "shopper",
+      "call": "contest(\"challenge_1\")",
+      "value": "0",
+      "hash": "0x4b76558d53f08b3a7a2245a27c39039bd60ae38a111b39fef9bb58023b94b216",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "UNCLEAR"
+    },
+    {
+      "who": "shopper",
+      "call": "settle(\"challenge_2\")",
+      "value": "0",
+      "hash": "0x3ac3115c90f060c6f268e2baff3bc2dae5dcb1cd9f06c690a4f19578c42aed84",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "stake_to_pot"
+    },
+    {
+      "who": "sponsor",
+      "call": "create_campaign(\"UK sugar claims\", \"sugar_free,low_sugar,no_added_sugar\", \"en:united-kingdom\", \"2027-01-01\", 0.25 GEN, 0.1 GEN, 2)",
+      "value": "1",
+      "hash": "0x1914d3a6554d6468115a7474d700bfde9a819ebf4bc4eb06846d1f98c4abeaed",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "campaign_1"
+    },
+    {
+      "who": "shopper",
+      "call": "challenge(\"campaign_1\", \"8412170028579\", \"sugar_free\")",
+      "value": "0.1",
+      "hash": "0xfe1dd335b241eeb75c4f1617c5f9c7b3f81c44962bef420f97cdd537d2e50fc5",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "challenge_5"
+    },
+    {
+      "who": "bystander",
+      "call": "close(\"campaign_1\")",
+      "value": "0",
+      "hash": "0xce5b65ff08ae2ae85961401896ddc3dc9be1f5133512c79531e9a2b2a37bbdab",
+      "status": "ACCEPTED",
+      "exec": "ERROR",
+      "refused": "Challenges can be filed until 2027-01-01"
+    },
+    {
+      "who": "bystander",
+      "call": "settle(\"challenge_0\")",
+      "value": "0",
+      "hash": "0x7b8e6262e499512c8f40fac324a9c81479206a35b1ae75d347e285d1abed323a",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "paid"
+    },
+    {
+      "who": "bystander",
+      "call": "settle(\"challenge_1\")",
+      "value": "0",
+      "hash": "0x0aebd96dc2e83d37f2ef02568ad6d4bb136a815fca8cc9c004de13c6fd4fceef",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "stake_returned"
+    },
+    {
+      "who": "bystander",
+      "call": "settle(\"challenge_3\")",
+      "value": "0",
+      "hash": "0x21df5e2339c3a7df508712b9defcffbd54f04fab36e950b075d30e206068700a",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "stake_to_pot"
+    },
+    {
+      "who": "bystander",
+      "call": "settle(\"challenge_4\")",
+      "value": "0",
+      "hash": "0x87060393dbf96d60d5b05eb20bec6ac7dbb83c59e60d0139e1e9d063ee92544d",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "stake_to_pot"
+    },
+    {
+      "who": "bystander",
+      "call": "settle(\"challenge_5\")",
+      "value": "0",
+      "hash": "0xa7f994a109df77a9efb7c636089f0adb08ebc71f30e928b6307dedb7347c3b8d",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "stake_to_pot"
+    },
+    {
+      "who": "shopper",
+      "call": "challenge(\"campaign_0\", \"8412170028579\", \"sugar_free\")",
+      "value": "0.1",
+      "hash": "0x6472e77f5158704ce0b49313de6bf45555a8a80c7e4a6302fdd05fc0e49bd20f",
+      "status": "ACCEPTED",
+      "exec": "SUCCESS",
+      "returned": "REFUNDED: This claim on this product was already upheld (challenge_0)"
+    }
+  ]
+}
